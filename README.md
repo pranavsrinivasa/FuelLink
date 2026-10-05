@@ -53,6 +53,10 @@ You can run the benchmark script to test 100 routes against your live server (ma
 python scripts/benchmark.py --ors-rpm 36 --max-ors-calls 150
 ```
 
+## Screenshot :
+
+<img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/8aced5af-9186-43ef-bdc9-f76a09738ae9" />
+
 **Benchmark Results:**
 - **Cold pass (new routes)**: ~375 ms average (includes external ORS routing calls)
 - **Warm pass (cache hit)**: ~2 ms average (0 external routing calls)
